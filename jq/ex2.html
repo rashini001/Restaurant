@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ex</title>
+	<script type="text/javascript" src="jquery-3.7.0.js"></script>
+</head>
+<body>
+	
+	<h2 class="a" >My World</h2>
+	
+	<button class="button">Hide me</button>
+	<button class="button1">Show me</button>
+	<script type="text/javascript">
+	$(document).ready(function()
+	{
+
+	$(".button").click(function()
+	{
+		$(".a").hide();
+	});
+
+	$(".button1").click(function()
+	{
+		$(".a").show();
+	});
+});
+	</script>
+
+</body>
+</html>

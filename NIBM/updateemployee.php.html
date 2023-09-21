@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title>Update Employee </title>
+</head>
+<body>
+  <h1>Employee Data Sheet</h1>
+
+  <form name="frmSearch" method="post" action="#">
+    Enter Emp No : <input type="text" name="txtSK">
+    <input type="submit" name="btnSearch" value="Search"><br><hr>
+  </form>
+ 
+    <form name="frmEmployee" method="post" action="update.php">
+  	Emp No : <input type="text" name="txtNo" ><br>
+  	Name : <input type="text" name="txtName" size="30"><br>
+    Age : <input type="number" name="txtAge"><br>
+    Address : <textarea cols="20" rows="4" name="txtAddress"></textarea><br>
+
+    <input type="submit" name="btnUpdate" value="Update" >
+    <input type="reset" name="btnreset" value="Reset">
+
+    
+</body>
+</html>

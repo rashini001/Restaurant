@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            table{
+                margin: 50px;
+            }
+        </style>
+
+    </head>
+
+
+    <body>
+
+        <form action="03.php" method="post">
+            <table>
+                <tr>
+                    <td>Member ID</td>
+                    <td><input type="text" name="txtID"></td>
+                </tr>
+                <tr>
+                    <td>Student Name</td>
+                    <td><input type="text" name="txtName"></td>
+                </tr>
+                <tr>
+                    <td>Member Type</td>
+                    <td>
+                        <select name="select" id="select">
+                            <option value="Student">Student</option>
+                            <option value="Staff">Staff</option>
+                            <option value="LifeTime">Life Time</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Type of Access</td>
+                    <td> <input type="radio" name="radio" id="lending" value="Lending">Landing  <input type="radio" name="radio" id="refernce" value="refernce"> Reference Only</td>
+                </tr>
+                <tr>
+                    <td>Sgree to terms?</td>
+                    <td> <input type="checkbox" name="check" id="check">Yes</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Submit Data" name="btnSubmit">
+                        <input type="button" value="Reset" name="btnReset">
+                    </td>
+                </tr>
+            </table>         
+        </form>
+        
+    </body>
+
+</html>

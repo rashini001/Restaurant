@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title>PHP Form </title>
+</head>
+<body>
+  <h1>Employee Salary Sheet</h1>
+ 
+    <form name="frmEmployee" method="post" action="Salary.php">
+  	Emp No : <input type="text" name="txtNo" placeholder="Enter Employee No"><br>
+  	Name : <input type="text" name="txtName"><br>
+  	Gender : <input id="rbMale" type="radio" name="rbGender" value="M" checked>Male
+             <input id="rbFemale"type="radio" name="rbGender" value="F" >Female<br>
+    Emp Type : <select name="cmbType" id="cmbType">
+    	       <option  value="C">Clerk </option>
+               <option value="S">Staff</option>
+               <option value="M">Manager</option>
+               </select><br>
+    Emp Status : <input id="chkStatus "type="checkbox" name="chkStatus" value="yes" checked> Confirmed <br>
+    Basic Salary : <input id="txtBasic"type="text" name="txtBasic"><br>
+    
+    <input type="submit" name="btnCalculate" value="Calculate" >
+    <input type="reset" name="btnreset" value="Reset">
+
+    
+</body>
+</html>

@@ -1,0 +1,21 @@
+<html>
+<head>
+<script src="jquery-3.7.0.js"></script>
+<script>
+$(document).ready(function(){
+$("input").keypress(function(){
+$(this).css("outline-color","red");
+});
+$("input").keyup(function(){
+$(this).css("outline-color","blue");
+});
+});
+</script>
+</head>
+<body>
+<form>
+<input type="text" name="fn" id="fn"> <br><br>
+<input type="text" name="ln" id="ln"> 
+</form>
+</body>
+</html>
